@@ -3,6 +3,8 @@ package My::Class;
 use strict;
 use warnings;
 
+# a comment
+
 sub new {
   my $class = shift;
   return bless {}, $class;
